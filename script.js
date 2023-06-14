@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let div = document.getElementsByTagName("div")[0];
+let div = document.getElementsByTagName("div");
 function onLo(){
 	div.innerHTML = "DOM load success";
 }
