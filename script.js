@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-  var myDiv = document.getElementById('myDiv');
-  myDiv.innerText = 'DOM load success';
-});
+  document.addEventListener('DOMContentLoaded', function() {
+      document.body.innerHTML = 'DOM load success';
+    });
