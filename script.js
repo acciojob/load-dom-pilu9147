@@ -1,6 +1,5 @@
-//your JS code here. If required.
-let div = document.getElementsByTagName("div");
-function onLo(){
-	div.innerHTML = "DOM load success";
-}
-window.addEventListener('load',onLo);
+ document.addEventListener('DOMContentLoaded', function() {
+      var message = document.createElement('p');
+      message.textContent = 'DOM load success';
+      document.body.appendChild(message);
+    });
